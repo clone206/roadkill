@@ -50,3 +50,4 @@ Roadkill.API/obj/
 Roadkill.API/Properties/PublishProfiles/SubDir.pubxml.user
 Roadkill.API/Roadkill.API.csproj.user
 Roadkill.API/Roadkill.API.csproj.vspscc
+Roadkill.API/appsettings.Development.json
