@@ -53,15 +53,15 @@
         $('#previewpanel-container').hide();
         $('#wysiwyg-toolbar').hide();
 
+		var pageTags = [ @(Html.Raw(Model.JavascriptArrayForAllTags())) ];
+        var editPage = new Roadkill.Web.EditPage(pageTags);
+        var origMD = $('#Content').val();
+
         // Transform CommonMark to standard markdown
         function toStdMarkdown(commonMarkdown) {
             return commonMarkdown
                 .replace(/&#/g, '&amp;#');                           // TUI entity escape
         }
-
-		var pageTags = [ @(Html.Raw(Model.JavascriptArrayForAllTags())) ];
-        var editPage = new Roadkill.Web.EditPage(pageTags);
-        var origMD = $('#Content').val();
 
         // Roadkill-compatible image urls token-rendering rule
         function rk_image_renderer (tokens, idx, options, env, slf) {

@@ -42,3 +42,11 @@ src/Roadkill.Web/Roadkill.Web.csproj.vspscc
 src/Roadkill.Web/raphael/
 src/Roadkill.Core/Roadkill.Core.csproj.user
 src/Roadkill.Core/Roadkill.Core.csproj.vspscc
+src/Roadkill.Tests/Roadkill.Tests.csproj.vspscc
+Roadkill.API/Publish/
+Roadkill.API/Controllers/PageController.cs
+Roadkill.API/bin/
+Roadkill.API/obj/
+Roadkill.API/Properties/PublishProfiles/SubDir.pubxml.user
+Roadkill.API/Roadkill.API.csproj.user
+Roadkill.API/Roadkill.API.csproj.vspscc
