@@ -164,22 +164,4 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E094AFB0-FF82-4278-B2A9-5837F5CDA0E8}
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://thesource3:8080/tfs/spsg
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = src\\Roadkill.Core\\Roadkill.Core.csproj
-		SccProjectName1 = src/Roadkill.Core
-		SccLocalPath1 = src\\Roadkill.Core
-		SccProjectUniqueName2 = src\\Roadkill.Tests\\Roadkill.Tests.csproj
-		SccProjectName2 = src/Roadkill.Tests
-		SccLocalPath2 = src\\Roadkill.Tests
-		SccProjectUniqueName3 = src\\Roadkill.Web\\Roadkill.Web.csproj
-		SccProjectName3 = src/Roadkill.Web
-		SccLocalPath3 = src\\Roadkill.Web
-		SccProjectUniqueName4 = Roadkill.API\\Roadkill.API.csproj
-		SccProjectName4 = Roadkill.API
-		SccLocalPath4 = Roadkill.API
-	EndGlobalSection
 EndGlobal
